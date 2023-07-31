@@ -1,0 +1,42 @@
+.header{
+    background: var(--oxford-blue);
+}
+.popular{
+    padding-top: 12%;
+}
+.card-content{
+    position: absolute;
+    transform: translate(0%, 200%) !important;
+}
+.popular-card:hover .card-content{
+    position: absolute;
+    transform: translate(0%, -50%) !important;
+}
+
+
+@media (max-width: 1200px) {
+    .popular{
+        padding-top: 20%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .popular{
+        padding-top: 25%;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .popular{
+        padding-top: 30%;
+    }
+    
+}
+@media (max-width: 400px) {
+    .popular{
+        padding-top: 35%;
+    }
+    
+}

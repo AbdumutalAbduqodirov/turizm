@@ -1,0 +1,35 @@
+.header{
+    background: var(--oxford-blue);
+}
+.gallery{
+    padding-top: 12%;
+}
+
+
+
+@media (max-width: 1200px) {
+    .gallery{
+        padding-top: 20%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .gallery{
+        padding-top: 25%;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .gallery{
+        padding-top: 30%;
+    }
+    
+}
+@media (max-width: 400px) {
+    .gallery{
+        padding-top: 35%;
+    }
+    
+}
